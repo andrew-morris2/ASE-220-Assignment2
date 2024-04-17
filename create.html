@@ -129,7 +129,7 @@
         });
     
         function updateRecipe(recipeData) {
-            fetch('https://jsonblob.com/api/jsonBlob/1214331063873953792')
+            fetch('http://localhost:3000/api/blobs/recipes.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Failed to fetch recipes');
@@ -140,7 +140,7 @@
                     data.recipes = data.recipes || [];
                     data.recipes.push(recipeData);
     
-                    return fetch('https://jsonblob.com/api/jsonBlob/1214331063873953792', {
+                    return fetch('http://localhost:3000/api/blobs/recipes.json', {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json',
