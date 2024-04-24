@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Create Recipe</title>
+    <style>
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f7f7f7;
+    }
+
+    h1 {
+        text-align: center;
+        color: green;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        font-weight: bold;
+        color: green;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    button[type="submit"] {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
+
+    button[type="submit"]:hover {
+        background-color: darkgreen;
+    }
+
+</style>
+</head>
+<body>
+    <h1>Create Recipe</h1>
+    <form id="editRecipeForm">
+        <label for="recipeName">Recipe Name:</label>
+        <input type="text" id="recipeName" name="recipeName" required><br><br>
+        
+        <label for="ingredients">Ingredients:</label><br>
+        <textarea id="ingredients" name="ingredients" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="instructions">Instructions:</label><br>
+        <textarea id="instructions" name="instructions" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="calories">Calories:</label>
+        <input type="number" id="calories" name="calories" required><br><br>
+        
+        <label for="protein">Protein:</label>
+        <input type="number" id="protein" name="protein" required><br><br>
+        
+        <label for="carbs">Carbs:</label>
+        <input type="number" id="carbs" name="carbs" required><br><br>
+
+        <label for="category">Category:</label>
+        <input type ="text" id="category" name="category" required><br><br>
+        
+        <button type="submit">Update Recipe</button>
+        <a href="index.html" class="btn btn-secondary">Back to Home Page</a>
+    </form>
+
+    <script>
+        document.getElementById('editRecipeForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+    
+            const recipeName = document.getElementById('recipeName').value;
+            const ingredients = document.getElementById('ingredients').value.split('\n');
+            const instructions = document.getElementById('instructions').value;
+            const calories = parseFloat(document.getElementById('calories').value);
+            const protein = parseFloat(document.getElementById('protein').value);
+            const carbs = parseFloat(document.getElementById('carbs').value);
+            const category = document.getElementById('category').value;
+
+            const newRecipe = {
+                name: recipeName,
+                ingredients: ingredients,
+                instructions: instructions,
+                nutrition: {
+                    calories: calories,
+                    protein: protein,
+                    carbs: carbs,
+                },
+                category: category,
+            };
+    
+            updateRecipe(newRecipe);
+        });
+    
+        function updateRecipe(recipeData) {
+            fetch('https://jsonblob.com/api/jsonBlob/1214331063873953792')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch recipes');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    data.recipes = data.recipes || [];
+                    data.recipes.push(recipeData);
+    
+                    return fetch('https://jsonblob.com/api/jsonBlob/1214331063873953792', {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data),
+                    });
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to update recipes');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Recipe added successfully:', data);
+                })
+                .catch(error => {
+                    console.error('Error updating recipes:', error);
+                });
+        }
+    </script>
+</body>
+</html>

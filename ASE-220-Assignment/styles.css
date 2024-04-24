@@ -1,0 +1,27 @@
+body {
+  background-color: #000; 
+  overflow-x: hidden; 
+};
+
+.container-fluid {
+  padding: 50px;
+};
+
+.game-card {
+  border-radius: 8px;
+  border-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #ffff;
+  text-align: center;
+};
+
+#nav-bar-top {
+  background-color: red;
+  color: white;
+};
+
+h2{
+  color: white;
+  text-align: center;
+};

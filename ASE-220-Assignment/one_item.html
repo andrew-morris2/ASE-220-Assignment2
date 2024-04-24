@@ -1,0 +1,89 @@
+<div class="container-fluid">
+  <div class="nav-container">
+    <div id="header">
+      <h1 style="font-family: Roboto; color: green; font-weight: bold">
+        FlavorFusion <i class="fas fa-utensils"></i>
+      </h1>
+    </div>
+    <div class="nav-bar">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="nav-element">
+            <a class="nav-element" href="./index.html">Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Recipe Details</title>
+    <style>
+      /* Add your styling for the recipe details page here */
+      body {
+        font-family: "Roboto";
+      }
+
+      .recipe-details-container {
+        margin: 50px;
+      }
+
+      .recipe-details {
+        text-align: center;
+      }
+
+      .recipe-title {
+        font-size: 36px;
+        font-weight: bold;
+        color: green;
+      }
+
+      .recipe-ingredients,
+      .recipe-instructions,
+      .recipe-nutrition {
+        margin-top: 25px;
+        font-size: 18px;
+      }
+
+      .line {
+        border-top: 2px solid black;
+        margin: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid recipe-details-container">
+      <div class="recipe-details">
+        <div class="recipe-title" id="recipe-title"></div>
+
+        <div class="line"></div>
+
+        <div class="recipe-ingredients" id="recipe-ingredients"></div>
+
+        <div class="line"></div>
+
+        <div class="recipe-instructions" id="recipe-instructions"></div>
+
+        <div class="line"></div>
+
+        <div class="recipe-nutrition" id="recipe-nutrition"></div>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
