@@ -1,6 +1,6 @@
 let recipeCounter = 3;
 function loadHomeRecipes() {
-    fetch('https://jsonblob.com/api/jsonblob/1214331063873953792')
+    fetch('http://localhost:3000/api/blobs/recipes.json')
     .then(response => response.json())
     .then(data => {
         const recipes = data.recipes.filter(recipe => recipe.category === 'meal');
@@ -16,7 +16,7 @@ function loadHomeRecipes() {
 
 
 function loadMoreRecipes() {
-    fetch('https://jsonblob.com/api/jsonblob/1214331063873953792')
+    fetch('http://localhost:3000/api/blobs/recipes.json')
     .then(response => response.json())
     .then(data => {
         const remainingRecipes = data.recipes.slice(recipeCounter, recipeCounter + 3);
@@ -113,7 +113,7 @@ function displayRecipes(recipes) {
 
 
 function fetchHomeDessertRecipes() {
-        fetch('https://jsonblob.com/api/jsonblob/1214331063873953792')
+        fetch('http://localhost:3000/api/blobs/recipes.json')
         .then(response => response.json())
         .then(data => {
             displayDesserts(data.recipes); //when fetchDessertRecipes is called, it also calls displayDesserts
@@ -250,7 +250,7 @@ function getDesserts(recipes){
 }
 
 function loadRecipesPage() {
-    fetch('https://jsonblob.com/api/jsonblob/1214331063873953792')
+    fetch('http://localhost:3000/api/blobs/recipes.json')
     .then(response => response.json())
     .then(data => {
         const recipes = data.recipes.filter(recipe => recipe.category === 'meal') //only getting meal recipes
@@ -259,7 +259,7 @@ function loadRecipesPage() {
 }   
 
 function loadDessertsRecipesPage(){
-    fetch('https://jsonblob.com/api/jsonblob/1214331063873953792')
+    fetch('http://localhost:3000/api/blobs/recipes.json')
     .then(response => response.json())
     .then(data => {
         getDesserts(data.recipes); //this will only display the first 3 recipes for the homepage
@@ -273,7 +273,7 @@ function getRecipeDetails() {
     const parameters = new URLSearchParams(window.location.search);
     const recipeName = parameters.get('recipeName');
     if (recipeName) {
-        fetch('https://jsonblob.com/api/jsonblob/1214331063873953792')
+        fetch('http://localhost:3000/api/blobs/recipes.json')
             .then(response => response.json())
             .then(data => {
                 const recipe = data.recipes.find(recipe => recipe.name === recipeName);
@@ -285,7 +285,7 @@ function getRecipeDetails() {
 }
 
 function generateRecipeDetails(recipe) {
-    fetch('https://jsonblob.com/api/jsonblob/1209605678733058048')
+    fetch('http://localhost:3000/api/blobs/recipes.json')
         .then(response => response.json())
         .then(data => {
             const foundRecipe = data.recipes.find(r => r.name === recipe.name);

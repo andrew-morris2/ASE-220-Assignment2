@@ -1,0 +1,400 @@
+{
+    "recipes": [
+      {
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+          "200g spaghetti",
+          "100g pancetta, diced",
+          "2 eggs",
+          "50g grated Parmesan cheese",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Cook spaghetti according to package instructions until al dente.",
+          "In a separate pan, fry diced pancetta until crispy.",
+          "In a bowl, whisk together eggs and grated Parmesan cheese.",
+          "Drain cooked spaghetti and add it to the pan with pancetta. Mix well.",
+          "Remove from heat and quickly stir in the egg mixture. The residual heat will cook the eggs.",
+          "Season with salt and pepper to taste. Serve immediately."
+        ],
+        "nutrition": {
+          "calories": 620,
+          "protein": 25,
+          "carbs": 45
+        },
+        "category": "meal"
+      },
+      {
+        "name": "Chicken Stir-Fry",
+        "ingredients": [
+          "2 chicken breasts, thinly sliced",
+          "2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)",
+          "3 cloves garlic, minced",
+          "1 tablespoon soy sauce",
+          "1 tablespoon oyster sauce",
+          "1 tablespoon sesame oil",
+          "Cooked rice, for serving"
+        ],
+        "instructions": [
+          "Heat sesame oil in a large pan over medium-high heat.",
+          "Add minced garlic and stir-fry until fragrant.",
+          "Add sliced chicken breasts and cook until browned and cooked through.",
+          "Add mixed vegetables and stir-fry until tender-crisp.",
+          "Stir in soy sauce and oyster sauce. Cook for another 2-3 minutes.",
+          "Serve hot over cooked rice."
+        ],
+        "nutrition": {
+          "calories": 420,
+          "protein": 30,
+          "carbs": 20
+        },
+        "category": "meal"
+      },
+      {
+        "name": "Classic Margherita Pizza",
+        "ingredients": [
+          "1 pizza dough ball",
+          "1/2 cup pizza sauce",
+          "1 1/2 cups shredded mozzarella cheese",
+          "Fresh basil leaves",
+          "Extra-virgin olive oil",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Preheat oven to 475°F (245°C).",
+          "Roll out pizza dough on a floured surface to desired thickness.",
+          "Spread pizza sauce evenly over the dough, leaving a small border around the edges.",
+          "Sprinkle shredded mozzarella cheese over the sauce.",
+          "Tear fresh basil leaves and scatter them over the cheese.",
+          "Drizzle with extra-virgin olive oil and season with salt and pepper.",
+          "Bake in the preheated oven for 10-12 minutes, or until crust is golden brown and cheese is bubbly.",
+          "Slice and serve hot."
+        ],
+        "nutrition": {
+          "calories": 300,
+          "protein": 15,
+          "carbs": 35
+        },
+        "category": "meal"
+      },
+      {
+        "name": "Chicken Alfredo Pasta",
+        "ingredients": [
+          "8 oz fettuccine pasta",
+          "2 boneless, skinless chicken breasts",
+          "2 tablespoons butter",
+          "2 cloves garlic, minced",
+          "1 cup heavy cream",
+          "1 cup grated Parmesan cheese",
+          "Salt and pepper to taste",
+          "Chopped parsley for garnish"
+        ],
+        "instructions": [
+          "Cook fettuccine pasta according to package instructions until al dente. Drain and set aside.",
+          "Season chicken breasts with salt and pepper. In a large skillet, heat butter over medium-high heat.",
+          "Add chicken breasts and cook until golden brown on both sides and cooked through. Remove from skillet and set aside.",
+          "In the same skillet, add minced garlic and cook until fragrant.",
+          "Pour in heavy cream and bring to a simmer. Stir in grated Parmesan cheese until melted and sauce has thickened.",
+          "Slice cooked chicken breasts and return to the skillet. Stir in cooked fettuccine pasta until well coated.",
+          "Season with additional salt and pepper if needed. Garnish with chopped parsley before serving."
+        ],
+        "nutrition": {
+          "calories": 780,
+          "protein": 40,
+          "carbs": 50
+        },
+        "category": "meal"
+      },
+      {
+        "name": "Beef Tacos",
+        "ingredients": [
+          "1 lb ground beef",
+          "1 packet taco seasoning mix",
+          "1/2 cup water",
+          "8 small flour tortillas",
+          "1 cup shredded cheddar cheese",
+          "1 cup shredded lettuce",
+          "1 cup diced tomatoes",
+          "1/2 cup diced onions",
+          "1/4 cup chopped fresh cilantro",
+          "Sour cream and salsa for serving"
+        ],
+        "instructions": [
+          "In a skillet, cook ground beef over medium heat until browned. Drain excess fat.",
+          "Add taco seasoning mix and water to the skillet. Stir well to combine.",
+          "Simmer for 5-7 minutes, or until sauce thickens.",
+          "Warm flour tortillas according to package instructions.",
+          "To assemble tacos, place a spoonful of beef mixture onto each tortilla.",
+          "Top with shredded cheddar cheese, lettuce, tomatoes, onions, and chopped cilantro.",
+          "Serve with sour cream and salsa on the side."
+        ],
+        "nutrition": {
+          "calories": 380,
+          "protein": 20,
+          "carbs": 30
+        },
+        "category": "meal"
+      },
+      {
+        "name": "Vegetable Stir-Fry",
+        "ingredients": [
+          "2 cups mixed vegetables (broccoli, bell peppers, carrots, snap peas)",
+          "1 tablespoon vegetable oil",
+          "2 cloves garlic, minced",
+          "2 tablespoons soy sauce",
+          "1 tablespoon oyster sauce",
+          "1 teaspoon sesame oil",
+          "Cooked rice, for serving"
+        ],
+        "instructions": [
+          "Heat vegetable oil in a large pan over medium-high heat.",
+          "Add minced garlic and stir-fry until fragrant.",
+          "Add mixed vegetables and stir-fry until tender-crisp.",
+          "Stir in soy sauce, oyster sauce, and sesame oil. Cook for another 2-3 minutes.",
+          "Serve hot over cooked rice."
+        ],
+        "nutrition": {
+          "calories": 250,
+          "protein": 10,
+          "carbs": 20
+        },
+        "category": "meal"
+      },
+      {
+        "name": "Chocolate Cake",
+        "ingredients": [
+          "1 3/4 cups all-purpose flour",
+          "2 cups granulated sugar",
+          "3/4 cup unsweetened cocoa powder",
+          "1 1/2 teaspoons baking powder",
+          "1 1/2 teaspoons baking soda",
+          "1 teaspoon salt",
+          "2 eggs",
+          "1 cup milk",
+          "1/2 cup vegetable oil",
+          "2 teaspoons vanilla extract",
+          "1 cup boiling water",
+          "Chocolate frosting (optional)"
+        ],
+        "instructions": [
+          "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.",
+          "In a large mixing bowl, sift together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+          "Add eggs, milk, vegetable oil, and vanilla extract to the dry ingredients. Beat on medium speed for 2 minutes.",
+          "Stir in boiling water until well combined. The batter will be thin.",
+          "Pour batter evenly into prepared cake pans.",
+          "Bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Remove cakes from oven and let cool in pans for 10 minutes. Then, transfer to wire racks to cool completely.",
+          "Frost with chocolate frosting if desired. Slice and serve."
+        ],
+        "nutrition": {
+          "calories": 350,
+          "protein": 5,
+          "carbs": 40
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Apple Pie",
+        "ingredients": [
+          "6 cups thinly sliced peeled apples",
+          "3/4 cup granulated sugar",
+          "2 tablespoons all-purpose flour",
+          "1 teaspoon ground cinnamon",
+          "1/4 teaspoon ground nutmeg",
+          "1 tablespoon lemon juice",
+          "1 double-crust pie pastry (9 inches)",
+          "1 tablespoon butter",
+          "1 large egg white",
+          "Additional sugar for sprinkling"
+        ],
+        "instructions": [
+          "Preheat oven to 400°F (200°C).",
+          "In a large bowl, combine sliced apples, granulated sugar, flour, cinnamon, nutmeg, and lemon juice. Toss gently to coat.",
+          "Line a 9-inch pie plate with bottom pastry; trim even with edge.",
+          "Fill with apple mixture; dot with butter.",
+          "Roll out remaining pastry to fit top of pie. Place over filling. Trim, seal, and flute edges. Cut slits in pastry.",
+          "Beat egg white until foamy; brush over pastry. Sprinkle with additional sugar.",
+          "Bake for 40-45 minutes, or until crust is golden brown and filling is bubbly. If necessary, cover edges with foil during the last 15 minutes to prevent overbrowning.",
+          "Cool on a wire rack. Serve warm or at room temperature."
+        ],
+        "nutrition": {
+          "calories": 300,
+          "protein": 2,
+          "carbs": 45
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Cheesecake",
+        "ingredients": [
+          "1 1/2 cups graham cracker crumbs",
+          "1/4 cup granulated sugar",
+          "1/3 cup unsalted butter, melted",
+          "3 packages (8 ounces each) cream cheese, softened",
+          "1 cup granulated sugar",
+          "3 large eggs",
+          "1 cup sour cream",
+          "1 teaspoon vanilla extract"
+        ],
+        "instructions": [
+          "Preheat oven to 325°F (160°C).",
+          "In a small bowl, combine graham cracker crumbs and 1/4 cup sugar; stir in melted butter.",
+          "Press onto the bottom of a greased 9-inch springform pan. Place on a baking sheet. Bake for 10 minutes. Cool on a wire rack.",
+          "In a large bowl, beat cream cheese and 1 cup sugar until smooth. Beat in eggs, one at a time. Beat in sour cream and vanilla.",
+          "Pour filling over crust. Return pan to the baking sheet.",
+          "Bake for 50-55 minutes, or until center is almost set.",
+          "Cool on a wire rack for 10 minutes. Carefully run a knife around the edge of the pan to loosen; cool 1 hour longer.",
+          "Refrigerate overnight. Remove sides of pan. Serve chilled."
+        ],
+        "nutrition": {
+          "calories": 400,
+          "protein": 6,
+          "carbs": 30
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Chocolate Mousse",
+        "ingredients": [
+          "6 ounces semisweet chocolate, chopped",
+          "3 tablespoons unsalted butter",
+          "3 eggs, separated",
+          "1/4 cup granulated sugar",
+          "1 cup heavy cream",
+          "1/2 teaspoon vanilla extract"
+        ],
+        "instructions": [
+          "In a microwave-safe bowl, melt chocolate and butter; stir until smooth. Cool slightly.",
+          "In a small bowl, beat egg yolks until thick and lemon-colored. Gradually add sugar, beating well. Stir in chocolate mixture.",
+          "In another bowl, beat egg whites until stiff peaks form; fold into chocolate mixture.",
+          "In a small bowl, beat cream until it begins to thicken. Add vanilla; beat until soft peaks form. Fold into chocolate mixture.",
+          "Spoon into dessert dishes. Refrigerate for at least 4 hours, or until set."
+        ],
+        "nutrition": {
+          "calories": 350,
+          "protein": 4,
+          "carbs": 20
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Banana Bread",
+        "ingredients": [
+          "1/2 cup unsalted butter, melted",
+          "1 cup granulated sugar",
+          "2 large eggs",
+          "1 teaspoon vanilla extract",
+          "1 1/2 cups mashed ripe bananas (about 3 medium)",
+          "1/4 cup buttermilk",
+          "2 cups all-purpose flour",
+          "1 teaspoon baking powder",
+          "1/2 teaspoon baking soda",
+          "1/2 teaspoon salt",
+          "1 cup chopped walnuts or pecans (optional)"
+        ],
+        "instructions": [
+          "Preheat oven to 350°F (175°C). Grease and flour a 9x5-inch loaf pan.",
+          "In a large mixing bowl, beat together melted butter and sugar until well combined.",
+          "Add eggs, one at a time, beating well after each addition. Stir in vanilla extract, mashed bananas, and buttermilk.",
+          "In a separate bowl, whisk together flour, baking powder, baking soda, and salt.",
+          "Gradually add dry ingredients to the banana mixture, stirring just until combined. Fold in chopped nuts if using.",
+          "Pour batter into prepared loaf pan.",
+          "Bake for 60-70 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Cool in the pan for 10 minutes, then transfer to a wire rack to cool completely before slicing."
+        ],
+        "nutrition": {
+          "calories": 250,
+          "protein": 4,
+          "carbs": 30
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Lemon Bars",
+        "ingredients": [
+          "1 cup all-purpose flour",
+          "1/2 cup unsalted butter, softened",
+          "1/4 cup powdered sugar",
+          "2 large eggs",
+          "1 cup granulated sugar",
+          "2 tablespoons all-purpose flour",
+          "2 tablespoons lemon juice",
+          "1/2 teaspoon baking powder",
+          "Powdered sugar for dusting"
+        ],
+        "instructions": [
+          "Preheat oven to 350°F (175°C). Grease a 9x9-inch baking pan.",
+          "In a medium bowl, mix together 1 cup flour, softened butter, and 1/4 cup powdered sugar. Press into the bottom of the prepared pan.",
+          "Bake for 15-20 minutes in the preheated oven, or until firm and golden.",
+          "In another bowl, whisk together eggs, granulated sugar, 2 tablespoons flour, lemon juice, and baking powder until well combined.",
+          "Pour over the baked crust and return to the oven.",
+          "Bake for an additional 20-25 minutes, or until the lemon topping is set and lightly browned.",
+          "Allow to cool completely in the pan on a wire rack.",
+          "Once cooled, dust with powdered sugar and cut into squares before serving."
+        ],
+        "nutrition": {
+          "calories": 200,
+          "protein": 2,
+          "carbs": 25
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Berry Crisp",
+        "ingredients": [
+          "4 cups mixed berries (strawberries, blueberries, raspberries, blackberries)",
+          "1/4 cup granulated sugar",
+          "1 tablespoon lemon juice",
+          "1 cup old-fashioned oats",
+          "1/2 cup all-purpose flour",
+          "1/2 cup packed brown sugar",
+          "1/4 teaspoon salt",
+          "1/2 cup unsalted butter, melted"
+        ],
+        "instructions": [
+          "Preheat oven to 350°F (175°C). Grease a 9x9-inch baking dish.",
+          "In a large bowl, combine mixed berries, granulated sugar, and lemon juice. Toss gently to coat.",
+          "In another bowl, mix together oats, flour, brown sugar, and salt. Stir in melted butter until well combined.",
+          "Spread berry mixture evenly into the prepared baking dish. Sprinkle oat mixture over the berries.",
+          "Bake for 30-35 minutes, or until the topping is golden brown and the berries are bubbling.",
+          "Allow to cool slightly before serving. Serve warm with ice cream or whipped cream if desired."
+        ],
+        "nutrition": {
+          "calories": 250,
+          "protein": 3,
+          "carbs": 35
+        },
+        "category": "dessert"
+      },
+      {
+        "name": "Key Lime Pie",
+        "ingredients": [
+          "1 1/4 cups graham cracker crumbs",
+          "1/4 cup granulated sugar",
+          "1/3 cup unsalted butter, melted",
+          "1 can (14 ounces) sweetened condensed milk",
+          "3/4 cup key lime juice",
+          "3 large egg yolks",
+          "Whipped cream for garnish",
+          "Lime slices for garnish"
+        ],
+        "instructions": [
+          "Preheat oven to 350°F (175°C).",
+          "In a medium bowl, combine graham cracker crumbs, sugar, and melted butter. Press onto the bottom and up the sides of a 9-inch pie plate.",
+          "Bake for 8-10 minutes, or until set and lightly browned. Remove from oven and cool on a wire rack.",
+          "In another bowl, whisk together sweetened condensed milk, key lime juice, and egg yolks until well combined.",
+          "Pour mixture into the cooled crust.",
+          "Bake for 15-20 minutes, or until filling is set but still slightly jiggly in the center.",
+          "Remove from oven and cool completely on a wire rack.",
+          "Refrigerate for at least 2 hours, or until chilled and set.",
+          "Garnish with whipped cream and lime slices before serving."
+        ],
+        "nutrition": {
+          "calories": 300,
+          "protein": 4,
+          "carbs": 25
+        },
+        "category": "dessert"
+      }
+    ]
+  }
